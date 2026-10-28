@@ -1,0 +1,60 @@
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    margin: 0;
+    padding: 30px;
+    color: black;
+    line-height: 1.6;
+}
+
+/* Main heading */
+h1 {
+    text-align: center;
+    background-color: navy;
+    color: white;
+    padding: 25px;
+    margin: 0 auto 25px;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+/* Section headings */
+h2 {
+    color: blue;
+    border-bottom: 2px solid dodgerblue;
+    padding-bottom: 8px;
+    margin-top: 25px;
+}
+
+/* Content styling */
+p {
+    background-color: white;
+    padding: 10px 15px;
+    margin: 10px auto;
+    max-width: 800px;
+    border-left: 4px solid dodgerblue;
+    border-radius: 5px;
+}
+
+/* Hover effect */
+p:hover {
+    background-color: lightyellow;
+}
+
+/* Mobile phone styling */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
